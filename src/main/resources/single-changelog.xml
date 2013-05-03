@@ -4,10 +4,7 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
 
-    <!-- External Changes -->
-    <include file="target/external-libs/liquibase-modul/create_admins.xml"/>
-
-    <include file="src/main/resources/db.initial.xml"/>
+    <include file="db.initial.xml"/>
   
 </databaseChangeLog>
 
